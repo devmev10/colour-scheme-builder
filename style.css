@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+header select{
+    flex-grow: 2;
+}
+
+div{
+    border: 1px solid black;
+    width: 20%;
+    height: 300px;
+}
+main{
+    display: flex;
+    margin-top: 30px;
+}
+section{
+    height: 260px;
+    border-bottom: 1px solid black;
+    
+}
+#sec1{
+    background-color: red;
+}
+#sec2{
+    background-color: black;
+}
+#sec3{
+    background-color: yellow;
+}
+#sec4{
+    background-color: yellowgreen;
+}
+#sec5{
+    background-color: purple;
+}
