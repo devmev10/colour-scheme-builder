@@ -1,7 +1,5 @@
 document.querySelector('button').addEventListener('click', getColor)
 
-
-
 function getColor(){
     let seedColor = document.querySelector('input').value.slice(1)
     let colorMode = document.querySelector('#color-mode').value
@@ -19,6 +17,7 @@ function getColor(){
         }
         for(let i = 0; i<5; i++){
         document.querySelector(`#sec${i}`).style.backgroundColor = colorScheme[i]
+        document.querySelector(`#text${i}`).innerText = colorScheme[i]
         }
 
     }) 
