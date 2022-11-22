@@ -8,9 +8,14 @@ function getColor(){
 
     fetch(`https://www.thecolorapi.com/scheme?hex=${seedColor}&mode=${colorMode}`)
     .then(response => response.json())
-    .then(data => console.log(data))
+    .then(data => {
+        // console.log(data.colors)
+        let arr = data.colors
+        for(item of arr){
+            console.log(item.hex.value)
+        }
+    })
 
-    console.log(seedColor)
-    console.log(colorMode)
+    
 }
 
