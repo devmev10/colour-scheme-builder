@@ -19,20 +19,8 @@ main{
 section{
     height: 260px;
     border-bottom: 1px solid black;
-    
 }
-/* #sec1{
-    background-color: red;
+
+button{
+    cursor: pointer;
 }
-#sec2{
-    background-color: black;
-}
-#sec3{
-    background-color: yellow;
-}
-#sec4{
-    background-color: yellowgreen;
-}
-#sec5{
-    background-color: purple;
-} */
