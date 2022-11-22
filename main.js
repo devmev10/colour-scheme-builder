@@ -17,10 +17,10 @@ function getColor(){
             // console.log(item.hex.value)
             colorScheme.push(item.hex.value)
         }
-    })
-    
-    console.log(colorScheme)
-    document.querySelector('#sec2').style.backgroundColor = `${colorScheme[1]}`
-    
+        for(let i = 0; i<5; i++){
+        document.querySelector(`#sec${i}`).style.backgroundColor = colorScheme[i]
+        }
+
+    }) 
 }
 
