@@ -2,25 +2,41 @@ header{
     display: flex;
     justify-content: space-around;
     gap: 10px;
+    margin-top: 20px;
 }
 header select{
     flex-grow: 2;
 }
 
 div{
-    border: 1px solid black;
-    width: 20%;
-    height: 300px;
+      width: 20%;
+    height: 400px;
 }
 main{
     display: flex;
     margin-top: 30px;
 }
 section{
-    height: 260px;
-    border-bottom: 1px solid black;
+    height: 360px;
+ 
+}
+h3{
+    text-align: center;
 }
 
 button{
     cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+input{
+    height: 40px;
+}
+select{
+    border-radius: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
 }

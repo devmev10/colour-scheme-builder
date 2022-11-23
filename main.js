@@ -23,3 +23,11 @@ function getColor(){
     }) 
 }
 
+// Copy the color hex value
+const copy = document.querySelector('h3')
+const Value = document.querySelector('h3').value
+
+copy.addEventListener('click', () => {
+    navigator.clipboard.writeText(Value)
+    alert('Copied')
+})
