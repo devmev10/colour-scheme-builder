@@ -59,7 +59,7 @@ h3{
 
 footer{
     display: flex;
-    margin-top: 200px;
+    margin-top: 180px;
     justify-content: center;
     align-items: flex-end;
 
@@ -80,7 +80,7 @@ h1,h2{
 }
 
 h1{
-    /* color: wheat; */
+   
     font-size: 30px;
 }
 h2{
