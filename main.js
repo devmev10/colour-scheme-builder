@@ -19,15 +19,15 @@ function getColor(){
         document.querySelector(`#sec${i}`).style.backgroundColor = colorScheme[i]
         document.querySelector(`#text${i}`).innerText = colorScheme[i]
         }
+        // Copy the color hex value
+        const copy = document.querySelectorAll('h3')
+        const Value = document.querySelectorAll('h3').innerText
+
+        copy.addEventListener('click', () => {
+            navigator.clipboard.writeText(Value)
+            alert('Copied')
+        })
 
     }) 
 }
 
-// Copy the color hex value
-const copy = document.querySelector('h3')
-const Value = document.querySelector('h3').value
-
-copy.addEventListener('click', () => {
-    navigator.clipboard.writeText(Value)
-    alert('Copied')
-})
