@@ -22,11 +22,12 @@ function getColor(){
         // Copy the color hex value
         const copy = document.querySelectorAll('h3')
         const Value = document.querySelectorAll('h3').innerText
+        console.log(copy)
 
-        copy.addEventListener('click', () => {
+        copy.forEach(copy => copy.addEventListener('click', () => {
             navigator.clipboard.writeText(Value)
             alert('Copied')
-        })
+        }))
 
     }) 
 }
